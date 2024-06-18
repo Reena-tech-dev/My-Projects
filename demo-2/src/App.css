@@ -1,0 +1,56 @@
+.outline{
+  width: 90vw;
+  height:100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+
+}
+
+
+.container{
+
+  width: 35%;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:yellowgreen;
+}
+.calculator
+{
+  padding: 20px;
+  border-radius: 10px;
+  background-color:rgb(4, 4, 47) ;
+}
+form input{
+border: none;
+outline: 0;
+width: 60px;
+height: 60px;
+font-size: 16px;
+background-color:blue ;
+margin: 2px;
+border-radius: 10px;
+color: white;
+}
+form input [type="button"]:hover
+{
+  background-color: skyblue;
+}
+.display
+{
+  text-align: right;
+  flex:1;
+  font-size: 36px;
+  width: 250px;
+  background-color: rgb(20, 20, 68);
+  padding: 5px 10px;
+  color: white;
+}
+.eqlbtn{
+  background-color: red;
+  width: 120px;
+  
+}
