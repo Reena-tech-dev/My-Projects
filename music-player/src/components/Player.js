@@ -7,6 +7,11 @@ function Player(props) {
     const [isPlaying, setIsPlaying] = useState(false);
 
     useEffect(() => {
+
+
+
+
+        
         if (isPlaying) {
             audioEl.current.play();
         } else {
